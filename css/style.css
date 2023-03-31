@@ -37,6 +37,10 @@ figure {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 /* lato-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -104,6 +108,13 @@ figure {
   top: 0;
   left: 0;
   width: 100%;
+  transition: 0.4s linear;
+  padding-bottom: 20px;
+  z-index: 999;
+}
+
+.header_active {
+  background: #0e1d28;
 }
 
 .header__wrapper {
@@ -560,3 +571,79 @@ benefits__card-link:focus {
 }
 
 /* Top styles end */
+
+/* Videos styles start */
+
+.vidios {
+  width: 100%;
+}
+
+.videos__wrapper {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.video_item {
+  padding-top: 56.25%;
+}
+
+.video__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Videos styles end */
+
+/* Footer styles start */
+
+.footer {
+  background: #0e1d28;
+  padding: 119px 0;
+}
+
+.footer__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__logo {
+  width: 50%;
+}
+
+.footer__logo-pic {
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+}
+.footer__menu {
+}
+.footer__menu-item {
+}
+.footer__menu-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.footer__menu-link {
+  line-height: 24px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:active,
+.footer__menu-link:focus {
+    opacity: 75%;
+}
+
+/* Footer styles end */
