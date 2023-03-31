@@ -308,7 +308,7 @@ benefits__card-link:focus {
 /* Places styles start */
 
 .places {
-    margin-bottom: 131px;
+  margin-bottom: 131px;
 }
 
 .wrapper-full {
@@ -367,7 +367,7 @@ benefits__card-link:focus {
 
 .places__card-pic {
   width: 100%;
- 
+
   transition: 0.3s all;
 }
 
@@ -387,26 +387,78 @@ benefits__card-link:focus {
 }
 
 .places__card-link {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
 }
 
 .places__card-small {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .places__card-pic_lg {
-    height: 100%;
-    object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
 
 .places__card-pic_small {
-    height: 100%;
-    object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Places styles end */
+
+/* Tours styles start */
+.tours {
+}
+
+.tours__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+
+.tour {
+}
+
+.tour__pic {
+}
+
+.tour__thumb {
+}
+
+.tour__info {
+    padding-left: 47px;
+}
+
+.tour__title {
+  margin-bottom: 85px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.tour__desc {
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.tour__link {
+  padding-right: 59px;
+  font-size: 16px;
+  color: #006dfe;
+  text-decoration: none;
+  background: url(../img/arrow-right-icon.svg) no-repeat right center;
+}
+
+.tour__link:hover,
+.tour__link:focus {
+  opacity: 50%;
+}
+
+/* Tours styles end */
