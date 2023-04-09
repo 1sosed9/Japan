@@ -1,5 +1,4 @@
-# Верстка сайта по макету
-Это сайт выполненный на HTML, CSS, JS по макету из Figma. 
+# Сайт о Японии по макету из Figma
 <p>
   <a href="https://github.com/1sosed9/site_1_portfolio">Код</a><br>
   <a href="https://1sosed9.github.io/site_1_portfolio/">Результат</a>
